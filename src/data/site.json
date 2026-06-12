@@ -20,6 +20,11 @@
       "borderBright": "rgba(255, 255, 255, 0.2)"
     },
     "grainOpacity": 0.05,
+    "lens": {
+      "enabled": true,
+      "size": 140,
+      "strength": 1
+    },
     "particles": {
       "spacing": 100,
       "maxCount": 260,
@@ -43,11 +48,11 @@
   },
 
   "links": {
-    "github": "https://github.com/Talhaa23",
-    "linkedin": "https://www.linkedin.com/in/talha-sifat",
-    "upwork": "https://www.upwork.com/freelancers/talhasifat",
-    "aiBot": "https://ask-talha.app",
-    "npm": "https://www.npmjs.com/~talhaa23"
+    "github": "https://github.com/TALHAA23",
+    "linkedin": "https://www.linkedin.com/in/talha-sifat-04410b238/",
+    "upwork": "https://www.upwork.com/freelancers/~014857361c14554206",
+    "aiBot": "https://ask-talha.vercel.app/",
+    "npm": "https://www.npmjs.com/package/intelligent-react-components"
   },
 
   "nav": {
@@ -81,7 +86,7 @@
     "tagline": "Full-stack JavaScript engineer wiring GPT-4, Gemini and RAG pipelines into React & Next.js products people actually use.",
     "ctas": [
       { "label": "View selected work", "href": "#projects", "style": "primary" },
-      { "label": "Ask my AI instead", "href": "https://ask-talha.app", "style": "ghost", "external": true }
+      { "label": "Ask my AI instead", "href": "https://ask-talha.vercel.app/", "style": "ghost", "external": true }
     ],
     "scrollHint": "SCROLL"
   },
@@ -109,7 +114,7 @@
     "items": [
       {
         "company": "Paper to Pixel",
-        "url": "https://papertopixel.tech",
+        "url": "https://papertopixel.co/",
         "role": "Full Stack Developer",
         "stack": "React · React Native · Node.js",
         "period": "APR 2026 — PRESENT",
@@ -121,7 +126,7 @@
       },
       {
         "company": "CBSOL",
-        "url": "",
+        "url": "https://cbsol.ai/",
         "role": "Associate Software Engineer",
         "stack": "MERN Stack",
         "period": "AUG 2025 — MAR 2026",
@@ -133,7 +138,7 @@
       },
       {
         "company": "Upwork",
-        "url": "https://www.upwork.com/freelancers/talhasifat",
+        "url": "https://www.upwork.com/freelancers/~014857361c14554206",
         "role": "Freelance Full-Stack Developer",
         "stack": "React · Next.js · Node.js",
         "period": "OCT 2021 — OCT 2024",
@@ -155,8 +160,8 @@
         "description": "A React component library that uses LLMs to generate enhanced HTML elements at runtime. The thesis question: what if the component could think? Published on NPM as a working answer.",
         "tags": ["React", "LLM", "NPM", "Component Architecture"],
         "links": [
-          { "label": "NPM", "url": "https://www.npmjs.com/~talhaa23" },
-          { "label": "GitHub", "url": "https://github.com/Talhaa23" }
+          { "label": "NPM", "url": "https://www.npmjs.com/package/intelligent-react-components" },
+          { "label": "GitHub", "url": "https://github.com/TALHAA23" }
         ]
       },
       {
@@ -166,7 +171,7 @@
         "description": "My CV, work history and engineering philosophy embedded into a vector database behind a conversational agent. Recruiters ask it anything — it answers like me, with receipts. You're reading the static version; this is the live one.",
         "tags": ["RAG", "Vector DB", "GPT-4", "Next.js"],
         "links": [
-          { "label": "Talk to it", "url": "https://ask-talha.app" }
+          { "label": "Talk to it", "url": "https://ask-talha.vercel.app/" }
         ]
       },
       {
@@ -175,7 +180,7 @@
         "description": "A live chat application where three distinct personality bots respond in completely different voices — same model, engineered prompts, real-time UI. React.js + OpenAI in production.",
         "tags": ["React", "OpenAI", "Prompt Engineering"],
         "links": [
-          { "label": "Live demo", "url": "https://github.com/Talhaa23" }
+          { "label": "Live demo", "url": "https://tone-talk.vercel.app/" }
         ]
       },
       {
@@ -184,7 +189,7 @@
         "description": "Complete e-commerce build: storefront, admin panel, authentication, role-based access control and payment integration. Responsive front to back with robust backend logic.",
         "tags": ["Next.js", "Node.js", "Auth", "Payments"],
         "links": [
-          { "label": "Live demo", "url": "https://github.com/Talhaa23" }
+          { "label": "Live demo", "url": "https://talha23-grain-du-sud.vercel.app/" }
         ]
       }
     ]
@@ -232,13 +237,13 @@
       {
         "name": "The AI Engineer Path",
         "issuer": "Scrimba",
-        "url": "https://scrimba.com",
+        "url": "https://scrimba.com/certificate-cert24zAwJ77fGLr49QULJgVn5aJgBFPjWedt4xk2",
         "detail": "JavaScript-powered AI applications — GPT-4, Agents, RAG systems"
       },
       {
         "name": "Learn React",
         "issuer": "Scrimba",
-        "url": "https://scrimba.com",
+        "url": "https://scrimba.com/certificate-cert2uNjfK9m1kvFm3bjtDYkqz5RheHmTj4AjAp",
         "detail": "Modern component-based development with React.js"
       }
     ]
@@ -250,10 +255,10 @@
     "blurb": "Open to full-time roles, contracts and interesting problems. The fastest way to know if we fit — ask my AI. The human responds within a day.",
     "emailCta": "talhasifat23@gmail.com",
     "socials": [
-      { "label": "GitHub", "url": "https://github.com/Talhaa23" },
-      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/talha-sifat" },
-      { "label": "Upwork", "url": "https://www.upwork.com/freelancers/talhasifat" },
-      { "label": "ask-talha.app", "url": "https://ask-talha.app" }
+      { "label": "GitHub", "url": "https://github.com/TALHAA23" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/talha-sifat-04410b238/" },
+      { "label": "Upwork", "url": "https://www.upwork.com/freelancers/~014857361c14554206" },
+      { "label": "ask-talha.app", "url": "https://ask-talha.vercel.app/" }
     ]
   },
 

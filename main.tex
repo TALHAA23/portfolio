@@ -1,0 +1,249 @@
+%-------------------------
+% Entry-level Resume in LaTeX
+% Version - v1.3
+% Last Edits - October 5, 2021
+% Author : Jayesh Sanwal
+%------------------------
+
+\documentclass[a4,10pt]{article}
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  STARTING HERE, DO NOT TOUCH ANYTHING 
+%%%%%%% --------------------------------------------------------------------------------------
+
+% Page and Layout
+\usepackage[empty]{fullpage}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage[inline]{enumitem}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\definecolor{lightblue}{RGB}{0,120,200} % tweak these RGB values
+
+\usepackage{hyperref}
+    \hypersetup{
+    colorlinks=true,
+    linkcolor=lightblue,
+    filecolor=lightblue,
+    urlcolor=lightblue,
+}
+
+
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+% Fonts and Symbols
+\usepackage{fontawesome5}     % Use \faEnvelope, \faLinkedin, etc.
+\usepackage{marvosym}
+\usepackage{anyfontsize}
+
+% Section Formatting
+\usepackage{titlesec}
+
+% Colors and Links
+\usepackage[usenames,dvipsnames]{color}
+% \usepackage[hidelinks]{hyperref}
+% \hypersetup{colorlinks=true, urlcolor=black}
+
+
+% Quotes (only if needed)
+\usepackage{csquotes}
+
+%%%% Set Margins
+\usepackage[margin=1cm, top=1cm]{geometry}
+
+%%%% Set Page
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%%%% Set URL Style
+\urlstyle{same}
+
+%%%% Set Indentation
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%%%% Set Secondary Color
+\definecolor{UI_blue}{RGB}{32, 64, 151}
+
+%%%% Set Sections formatting
+\titleformat{\section}{
+\color{UI_blue} \scshape \raggedright \large 
+}{}{0em}{}[\vspace{-10pt} \hrulefill \vspace{-6pt}]
+
+%%%% Set Subtext Formatting
+\newcommand{\subtext}[1]{
+#1\par\vspace{-0.2cm}}
+
+%%%% Set Item Spacing
+\setlist[itemize]{align=parleft,left=0pt..1em}
+
+%%%% New Itemize "Zitemize" Formatting - tighter spacing than itemize
+\newenvironment{zitemize}{
+\begin{itemize}\itemsep0pt \parskip0pt \parsep1pt}
+{\end{itemize}\vspace{-0.5cm}}
+
+%%%% Define Skills Bold Formatting
+\newcommand{\hskills}[1]{
+\textbf{\bfseries #1} }
+
+%%%% Set Subsection formatting
+\titleformat{\subsection}{\vspace{-0.1cm} 
+\bfseries \fontsize{11pt}{2cm}}{}{0em}{}[\vspace{-0.2cm}]
+
+%%%% Custom small blue link style
+\newcommand{\citelink}[2]{\textcolor{UI_blue}{\href{#1}{\small #2}}}
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  END OF "DO NOT TOUCH" REGION
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%% --------------------------------------------------------------------------------------
+
+\begin{document}
+
+%%%%%%% -------------------------------------------------------------------------------
+
+%%%% Header Section
+\begin{center}
+    {\Huge \textbf{Talha Sifat}} \\[0.15cm]
+    {\color{UI_blue} \Large Full-Stack Applied AI Developer} \\[0.25cm]
+    \faPhone~ (+92) 316-6402338 \enspace | \enspace
+    \faEnvelope~ \href{mailto:talhasifat23@gmail.com}{\textcolor{black}{\underline{talhasifat23@gmail.com}}} \\[0.1cm]
+   \faGithub~ \href{https://github.com/TALHAA23}{\textcolor{black}{\underline{Talhaa23}}} \enspace | \enspace
+\faLinkedin~ \href{https://www.linkedin.com/in/talha-sifat-04410b238/}{\textcolor{black}{\underline{Talha Sifat}}} \enspace | \enspace
+\href{https://www.upwork.com/freelancers/~014857361c14554206}{\textcolor{black}{\underline{Upwork}}} \enspace | \enspace
+\faRobot~ \href{https://ask-talha.vercel.app/}{\textcolor{black}{\underline{Ask My AI Bot}}}
+
+
+
+\end{center}
+
+\vspace{-0.70cm}
+
+\section{Professional Summary}
+\subsection*{{\normalsize \normalfont 
+Software Engineering graduate with specialized expertise in \textbf{full-stack JavaScript development} and \textbf{applied AI integration}. Proven experience in integrating advanced LLMs like \textbf{GPT-4} and \textbf{Google Gemini} into React/Next.js applications using \textbf{RAG (Retrieval-Augmented Generation)} and vector databases. Currently serving as an \textbf{Associate Software Engineer} at \href{https://papertopixel.co/}{Paper to Pixel}, with a strong background in freelance development and a passion for building intelligent, user-friendly interfaces that leverage cutting-edge AI technologies. \\[0.15cm]
+\textit{Explore my projects, experience, and work philosophy interactively: \href{https://ask-talha.vercel.app/}{ask-talha.app}}
+}} 
+
+\vspace{0.2cm}
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  EDUCATION
+%%%%%%% --------------------------------------------------------------------------------------
+\section{Education}
+\begin{itemize}
+    \item \subsection*{ BS in Software Engineering, {\normalsize \normalfont City University of Science \& Information Technology, Peshawar, CGPA: 3.38/4.0}\hfill Oct 2021 - July 2025}
+    \subtext{Thesis: "Intelligent React Components" - focused on integrating AI into frontend development}
+    \item \subsection*{ Higher Secondary School Certificate (Pre-Engineering), {\normalsize \normalfont Peshawar Model Degree College, Grade: B} \hfill 2021}
+    \item \subsection*{ Secondary School Certificate (Science), {\normalsize \normalfont Ittefaq Model School, Grade: A1} \hfill 2019} 
+\end{itemize}
+\vspace{0.05cm}
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  WORK EXPERIENCE
+%%%%%%% --------------------------------------------------------------------------------------
+\section{Professional Experience}
+
+\subsection*{Full Stack Developer (React / React Native / Node.js) {\normalsize\normalfont} \hfill Apr 2026 --- Present} 
+\subtext{\href{https://papertopixel.co/}{Paper to Pixel} \hfill Lahore, Pakistan (On-site)} 
+    \begin{zitemize}
+        \item Develop and maintain frontend and mobile applications using React and React Native, ensuring responsive and high-performance user experiences
+        \item Build and integrate scalable backend services and APIs using Node.js, supporting seamless data flow and system reliability
+    \end{zitemize}
+
+\subsection*{Associate Software Engineer - MERN Stack {\normalsize\normalfont} \hfill Aug 2025 --- Mar 2026} 
+\subtext{\href{https://cbsol.ai/}{CBSOL} \hfill Lahore, Pakistan (On-site)} 
+    \begin{zitemize}
+        \item Design and maintain full-stack applications using MERN stack (MongoDB, Express.js, React.js, Node.js)
+        \item Collaborate with cross-functional teams to deliver scalable web solutions aligned with business requirements
+    \end{zitemize}
+
+\subsection*{Freelance Full-Stack Developer {\normalsize\normalfont} \hfill Oct 2021 --- Oct 2024} 
+\subtext{\href{https://www.upwork.com/freelancers/~014857361c14554206}{Upwork} \hfill Remote} 
+    \begin{zitemize}
+        \item Built full-stack applications with React.js, Next.js, and Node.js for international clients
+    \end{zitemize}
+
+\vspace{0.05cm}
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  KEY PROJECTS
+%%%%%%% --------------------------------------------------------------------------------------
+\section{Key Projects}
+
+\subsection*{Intelligent React Components {\normalsize\normalfont (Final Year Project)}} 
+\citelink{https://www.npmjs.com/package/intelligent-react-components}{View on NPM}
+    \begin{zitemize}
+        \item Developed a React component library using LLMs to generate enhanced HTML elements
+        \item Published as NPM package demonstrating practical AI application in frontend development
+    \end{zitemize}
+
+\subsection*{Tone Talk - AI Chatbot Application } 
+\citelink{https://tone-talk.vercel.app/}{Live Demo}
+    \begin{zitemize}
+        \item Built AI chatbot with three distinct personality bots using React.js and OpenAI
+        \item Deployed live application demonstrating practical AI conversation capabilities
+    \end{zitemize}
+
+\subsection*{E-Commerce Platform} 
+\citelink{https://talha23-grain-du-sud.vercel.app/}{Live Demo}
+    \begin{zitemize}
+        \item Full-stack e-commerce application with admin panel, authentication, and role-based access control
+        \item Implemented payment integration, responsive design, and robust backend logic
+    \end{zitemize}
+
+
+\vspace{0.05cm}
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  CERTIFICATIONS
+%%%%%%% --------------------------------------------------------------------------------------
+\section{Certifications}
+
+\subsection*{The AI Engineer Path, {\normalsize \normalfont Scrimba}} 
+\citelink{https://scrimba.com/certificate-cert24zAwJ77fGLr49QULJgVn5aJgBFPjWedt4xk2}{View Credential}\\
+\subtext{Practical track focused on JavaScript-powered AI applications using GPT-4, Agents, and RAG systems}
+
+\subsection*{Learn React, {\normalsize \normalfont Scrimba}}  
+\citelink{https://scrimba.com/certificate-cert2uNjfK9m1kvFm3bjtDYkqz5RheHmTj4AjAp}{View Credential}\\
+\subtext{Comprehensive training in modern component-based development with React.js fundamentals}
+
+
+\vspace{0.05cm}
+
+%%%%%%% --------------------------------------------------------------------------------------
+%%%%%%%  TECHNICAL SKILLS
+%%%%%%% --------------------------------------------------------------------------------------
+\section{Technical Skills}
+\begin{tabular}{p{11em} p{44em}}
+
+\hskills{Languages} & JavaScript, TypeScript, HTML, CSS \\
+
+\hskills{Frontend \& Mobile} & React.js, Next.js, React Native, Tailwind CSS, Expo, Capacitor \\
+
+\hskills{Backend} & Node.js, Express.js \\
+
+\hskills{AI \& LLM} & OpenAI GPT-4, Google Gemini, LangChain, RAG, Hugging Face \\
+
+\hskills{Databases} & MongoDB, Firebase, Supabase, Vector Databases \\
+
+\hskills{APIs \& Auth} & Google APIs, TikTok API, Meta API, Auth0 \\
+
+\hskills{Developer Tools} & Git/GitHub, GitHub Copilot, Claude Code, Cursor, Cloudflare \\
+
+\hskills{Design \& Animation} & Figma, motion.dev \\
+
+\hskills{Deployment} & Vercel, Netlify, Cloudflare Workers, Expo EAS \\
+
+\end{tabular}
+\vspace{-0.2cm}
+
+
+\end{document}

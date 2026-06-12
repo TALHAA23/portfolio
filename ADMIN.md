@@ -11,6 +11,7 @@ needs to change for content edits.
 |---|---|
 | Change the accent color of the whole site | `theme.colors.accent` (+ `accentDim`, `accentFaint` to match) |
 | Make the film grain stronger/weaker | `theme.grainOpacity` (0 = off, 0.1 = heavy) |
+| Tune/disable the cursor magnifier lens | `theme.lens` — `size` (px), `strength` (zoom power), `enabled: false` to remove |
 | More/fewer background particles | `theme.particles.spacing` (smaller = denser), `maxCount` caps it |
 | Speed up the skills marquee | `theme.marqueeSeconds` (lower = faster) |
 | Change the boot/loading text | `hero.boot.lines` — add/remove lines freely |
