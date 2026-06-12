@@ -257,6 +257,21 @@
     ]
   },
 
+  "gamification": {
+    "enabled": true,
+    "title": "VISITOR LOG",
+    "subtitle": "Explore the site to unlock all entries",
+    "achievements": [
+      { "id": "boot", "icon": "⏻", "title": "SYSTEM WITNESS", "desc": "Watched the boot sequence", "hint": "Be there when it wakes up" },
+      { "id": "explorer", "icon": "◈", "title": "FULL SCAN", "desc": "Visited every section", "hint": "Leave nothing unread" },
+      { "id": "deep-diver", "icon": "▼", "title": "DEEP DIVER", "desc": "Reached the very bottom", "hint": "How low can you go?" },
+      { "id": "curious", "icon": "⌕", "title": "STACK INSPECTOR", "desc": "Probed 10 different skills", "hint": "Poke around the arsenal" },
+      { "id": "recruiter", "icon": "✉", "title": "FIRST CONTACT", "desc": "Copied the email address", "hint": "Make the first move" },
+      { "id": "night-owl", "icon": "☾", "title": "NIGHT SHIFT", "desc": "Visited during the night hours", "hint": "Some code only ships after dark" },
+      { "id": "konami", "icon": "▲▲▼▼", "title": "GOD MODE", "desc": "Entered the ancient code", "hint": "↑↑↓↓←→←→ B A" }
+    ]
+  },
+
   "footer": {
     "line": "Designed & engineered by Talha Sifat",
     "credits": "Next.js · anime.js · Lenis",
@@ -264,6 +279,6 @@
   },
 
   "sections": {
-    "order": ["hero", "marquee", "about", "experience", "projects", "skills", "education", "contact"]
+    "order": ["hero", "marquee", "circuits", "about", "experience", "projects", "skills", "circuits-2", "education", "contact"]
   }
 }

@@ -20,6 +20,8 @@ needs to change for content edits.
 | Add a project | Add an object to `projects.items` — links array can hold any number of links |
 | Add a skill | Add to any group in `skills.groups`, or add a whole new group |
 | Change availability badge | `personal.availability` (shows in nav) |
+| Edit/disable visitor achievements | `gamification.achievements` (titles, hints…), `gamification.enabled: false` to remove the whole system |
+| Move/remove the circuit dividers | `circuits` and `circuits-2` entries in `sections.order` |
 | Update links | `links.*`, `contact.socials`, and per-project `links` |
 | Swap the hero avatar | `hero.image` (path under `public/`) — remove the key to hide it |
 | Swap the about portrait | `about.image` — remove the key to hide it |
@@ -28,9 +30,11 @@ needs to change for content edits.
 
 ## Section keys
 
-`sections.order` accepts: `hero`, `marquee`, `about`, `experience`, `projects`,
-`skills`, `education`, `contact`. Content sections are auto-numbered (01, 02, …)
-in the order they appear; `hero` and `marquee` are unnumbered.
+`sections.order` accepts: `hero`, `marquee`, `circuits`, `about`, `experience`,
+`projects`, `skills`, `education`, `contact`. Content sections are auto-numbered
+(01, 02, …) in the order they appear; `hero`, `marquee` and `circuits` are
+unnumbered decoration. A section type can appear more than once by suffixing
+`-2`, `-3`… (e.g. `circuits-2`); suffixed copies render mirrored.
 
 ## Notes
 

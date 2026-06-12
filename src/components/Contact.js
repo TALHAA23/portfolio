@@ -42,6 +42,7 @@ export default function Contact({ index }) {
     } catch {
       window.location.href = `mailto:${site.personal.email}`;
     }
+    window.dispatchEvent(new Event("game:email-copied"));
   };
 
   return (
