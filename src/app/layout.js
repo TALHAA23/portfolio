@@ -4,7 +4,7 @@ import site from "@/data/site.json";
 import SmoothScroll from "@/components/SmoothScroll";
 import ParticleField from "@/components/ParticleField";
 import CursorGlow from "@/components/CursorGlow";
-import CursorLens from "@/components/CursorLens";
+import CursorBubbles from "@/components/CursorBubbles";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space",
@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
         <SmoothScroll />
         <ParticleField />
         <CursorGlow />
-        <CursorLens />
+        <CursorBubbles />
         <div className="grain" aria-hidden="true" />
         <div className="relative z-10">{children}</div>
       </body>
