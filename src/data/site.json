@@ -1,8 +1,16 @@
 {
   "meta": {
-    "title": "Talha Sifat — Full-Stack Applied AI Developer",
+    "title": "Talha Sifat - Full-Stack Applied AI Developer",
     "description": "Full-stack JavaScript engineer wiring GPT-4, Gemini and RAG pipelines into React & Next.js products. Currently building at Paper to Pixel.",
-    "keywords": ["Talha Sifat", "Full-Stack Developer", "Applied AI", "React", "Next.js", "RAG", "LLM"]
+    "keywords": [
+      "Talha Sifat",
+      "Full-Stack Developer",
+      "Applied AI",
+      "React",
+      "Next.js",
+      "RAG",
+      "LLM"
+    ]
   },
 
   "theme": {
@@ -86,14 +94,36 @@
     "roleLine": "I build interfaces that think.",
     "tagline": "Full-stack JavaScript engineer wiring GPT-4, Gemini and RAG pipelines into React & Next.js products people actually use.",
     "ctas": [
-      { "label": "View selected work", "href": "#projects", "style": "primary" },
-      { "label": "Ask my AI instead", "href": "https://ask-talha.vercel.app/", "style": "ghost", "external": true }
+      {
+        "label": "View selected work",
+        "href": "#projects",
+        "style": "primary"
+      },
+      {
+        "label": "Ask my AI instead",
+        "href": "https://ask-talha.vercel.app/",
+        "style": "ghost",
+        "external": true
+      }
     ],
     "scrollHint": "SCROLL"
   },
 
   "marquee": {
-    "items": ["GPT-4", "RAG PIPELINES", "NEXT.JS", "REACT NATIVE", "LANGCHAIN", "VECTOR DBS", "NODE.JS", "TYPESCRIPT", "GEMINI", "SUPABASE", "TAILWIND", "EXPO"]
+    "items": [
+      "GPT-4",
+      "RAG PIPELINES",
+      "NEXT.JS",
+      "REACT NATIVE",
+      "LANGCHAIN",
+      "VECTOR DBS",
+      "NODE.JS",
+      "TYPESCRIPT",
+      "GEMINI",
+      "SUPABASE",
+      "TAILWIND",
+      "EXPO"
+    ]
   },
 
   "about": {
@@ -101,7 +131,17 @@
     "title": "Signal, not noise.",
     "image": "/images/avatar-about.png",
     "body": "Software engineer specialized in full-stack JavaScript and applied AI integration. I take large language models — GPT-4, Gemini — and wire them into React and Next.js applications with RAG and vector databases, so the intelligence actually ships. Currently engineering at Paper to Pixel, with years of freelance work behind me and a thesis that taught React components to think.",
-    "highlights": ["full-stack JavaScript", "applied AI", "GPT-4", "Gemini", "RAG", "vector databases", "Paper to Pixel", "React", "Next.js"],
+    "highlights": [
+      "full-stack JavaScript",
+      "applied AI",
+      "GPT-4",
+      "Gemini",
+      "RAG",
+      "vector databases",
+      "Paper to Pixel",
+      "React",
+      "Next.js"
+    ],
     "stats": [
       { "value": 5, "suffix": "+", "label": "Years writing JavaScript" },
       { "value": 3, "suffix": "", "label": "Companies & a freelance run" },
@@ -161,7 +201,10 @@
         "description": "A React component library that uses LLMs to generate enhanced HTML elements at runtime. The thesis question: what if the component could think? Published on NPM as a working answer.",
         "tags": ["React", "LLM", "NPM", "Component Architecture"],
         "links": [
-          { "label": "NPM", "url": "https://www.npmjs.com/package/intelligent-react-components" },
+          {
+            "label": "NPM",
+            "url": "https://www.npmjs.com/package/intelligent-react-components"
+          },
           { "label": "GitHub", "url": "https://github.com/TALHAA23" }
         ]
       },
@@ -190,7 +233,10 @@
         "description": "Complete e-commerce build: storefront, admin panel, authentication, role-based access control and payment integration. Responsive front to back with robust backend logic.",
         "tags": ["Next.js", "Node.js", "Auth", "Payments"],
         "links": [
-          { "label": "Live demo", "url": "https://talha23-grain-du-sud.vercel.app/" }
+          {
+            "label": "Live demo",
+            "url": "https://talha23-grain-du-sud.vercel.app/"
+          }
         ]
       }
     ]
@@ -200,14 +246,56 @@
     "label": "STACK",
     "title": "The arsenal",
     "groups": [
-      { "name": "LANGUAGES", "items": ["JavaScript", "TypeScript", "HTML", "CSS"] },
-      { "name": "FRONTEND & MOBILE", "items": ["React.js", "Next.js", "React Native", "Tailwind CSS", "Expo", "Capacitor"] },
+      {
+        "name": "LANGUAGES",
+        "items": ["JavaScript", "TypeScript", "HTML", "CSS"]
+      },
+      {
+        "name": "FRONTEND & MOBILE",
+        "items": [
+          "React.js",
+          "Next.js",
+          "React Native",
+          "Tailwind CSS",
+          "Expo",
+          "Capacitor"
+        ]
+      },
       { "name": "BACKEND", "items": ["Node.js", "Express.js"] },
-      { "name": "AI & LLM", "items": ["OpenAI GPT-4", "Google Gemini", "LangChain", "RAG", "Hugging Face"] },
-      { "name": "DATABASES", "items": ["MongoDB", "Firebase", "Supabase", "Vector Databases"] },
-      { "name": "APIS & AUTH", "items": ["Google APIs", "TikTok API", "Meta API", "Auth0"] },
-      { "name": "TOOLS", "items": ["Git / GitHub", "Claude Code", "Cursor", "GitHub Copilot", "Cloudflare", "Figma", "motion.dev"] },
-      { "name": "DEPLOYMENT", "items": ["Vercel", "Netlify", "Cloudflare Workers", "Expo EAS"] }
+      {
+        "name": "AI & LLM",
+        "items": [
+          "OpenAI GPT-4",
+          "Google Gemini",
+          "LangChain",
+          "RAG",
+          "Hugging Face"
+        ]
+      },
+      {
+        "name": "DATABASES",
+        "items": ["MongoDB", "Firebase", "Supabase", "Vector Databases"]
+      },
+      {
+        "name": "APIS & AUTH",
+        "items": ["Google APIs", "TikTok API", "Meta API", "Auth0"]
+      },
+      {
+        "name": "TOOLS",
+        "items": [
+          "Git / GitHub",
+          "Claude Code",
+          "Cursor",
+          "GitHub Copilot",
+          "Cloudflare",
+          "Figma",
+          "motion.dev"
+        ]
+      },
+      {
+        "name": "DEPLOYMENT",
+        "items": ["Vercel", "Netlify", "Cloudflare Workers", "Expo EAS"]
+      }
     ]
   },
 
@@ -257,8 +345,14 @@
     "emailCta": "talhasifat23@gmail.com",
     "socials": [
       { "label": "GitHub", "url": "https://github.com/TALHAA23" },
-      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/talha-sifat-04410b238/" },
-      { "label": "Upwork", "url": "https://www.upwork.com/freelancers/~014857361c14554206" },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/talha-sifat-04410b238/"
+      },
+      {
+        "label": "Upwork",
+        "url": "https://www.upwork.com/freelancers/~014857361c14554206"
+      },
       { "label": "ask-talha.app", "url": "https://ask-talha.vercel.app/" }
     ]
   },
@@ -268,13 +362,55 @@
     "title": "VISITOR LOG",
     "subtitle": "Explore the site to unlock all entries",
     "achievements": [
-      { "id": "boot", "icon": "⏻", "title": "SYSTEM WITNESS", "desc": "Watched the boot sequence", "hint": "Be there when it wakes up" },
-      { "id": "explorer", "icon": "◈", "title": "FULL SCAN", "desc": "Visited every section", "hint": "Leave nothing unread" },
-      { "id": "deep-diver", "icon": "▼", "title": "DEEP DIVER", "desc": "Reached the very bottom", "hint": "How low can you go?" },
-      { "id": "curious", "icon": "⌕", "title": "STACK INSPECTOR", "desc": "Probed 10 different skills", "hint": "Poke around the arsenal" },
-      { "id": "recruiter", "icon": "✉", "title": "FIRST CONTACT", "desc": "Copied the email address", "hint": "Make the first move" },
-      { "id": "night-owl", "icon": "☾", "title": "NIGHT SHIFT", "desc": "Visited during the night hours", "hint": "Some code only ships after dark" },
-      { "id": "konami", "icon": "▲▲▼▼", "title": "GOD MODE", "desc": "Entered the ancient code", "hint": "↑↑↓↓←→←→ B A" }
+      {
+        "id": "boot",
+        "icon": "⏻",
+        "title": "SYSTEM WITNESS",
+        "desc": "Watched the boot sequence",
+        "hint": "Be there when it wakes up"
+      },
+      {
+        "id": "explorer",
+        "icon": "◈",
+        "title": "FULL SCAN",
+        "desc": "Visited every section",
+        "hint": "Leave nothing unread"
+      },
+      {
+        "id": "deep-diver",
+        "icon": "▼",
+        "title": "DEEP DIVER",
+        "desc": "Reached the very bottom",
+        "hint": "How low can you go?"
+      },
+      {
+        "id": "curious",
+        "icon": "⌕",
+        "title": "STACK INSPECTOR",
+        "desc": "Probed 10 different skills",
+        "hint": "Poke around the arsenal"
+      },
+      {
+        "id": "recruiter",
+        "icon": "✉",
+        "title": "FIRST CONTACT",
+        "desc": "Copied the email address",
+        "hint": "Make the first move"
+      },
+      {
+        "id": "night-owl",
+        "icon": "☾",
+        "title": "NIGHT SHIFT",
+        "desc": "Visited during the night hours",
+        "hint": "Some code only ships after dark"
+      },
+      {
+        "id": "konami",
+        "icon": "▲▲▼▼",
+        "title": "GOD MODE",
+        "desc": "Entered the ancient code",
+        "hint": "↑↑↓↓←→←→ B A"
+      }
     ]
   },
 
@@ -285,6 +421,17 @@
   },
 
   "sections": {
-    "order": ["hero", "marquee", "circuits", "about", "experience", "projects", "skills", "circuits-2", "education", "contact"]
+    "order": [
+      "hero",
+      "marquee",
+      "circuits",
+      "about",
+      "experience",
+      "projects",
+      "skills",
+      "circuits-2",
+      "education",
+      "contact"
+    ]
   }
 }
