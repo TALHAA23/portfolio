@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Image from "next/image";
 import { animate } from "animejs";
 import site from "@/data/site.json";
@@ -97,7 +97,7 @@ function ProjectCard({ project, idx }) {
               </div>
             )}
             <div className="flex flex-row gap-6 md:flex-col md:items-end md:gap-4">
-              {project.links.map((link) => (
+              {(project.links || []).map((link) => (
                 <a
                   key={link.label}
                   href={link.url}
@@ -118,6 +118,23 @@ function ProjectCard({ project, idx }) {
 
 export default function Projects({ index }) {
   const data = site.projects;
+  const initialCount = data.initialCount || data.items.length;
+  const [expanded, setExpanded] = useState(false);
+  const visible = expanded ? data.items : data.items.slice(0, initialCount);
+  const hiddenCount = data.items.length - initialCount;
+
+  const toggle = () => {
+    // when collapsing, keep the section in view instead of dumping the
+    // user far below it
+    if (expanded) {
+      document.getElementById("projects")?.scrollIntoView({
+        behavior: prefersReducedMotion() ? "auto" : "smooth",
+        block: "start",
+      });
+    }
+    setExpanded((v) => !v);
+  };
+
   return (
     <section
       id="projects"
@@ -125,10 +142,25 @@ export default function Projects({ index }) {
     >
       <SectionHeading index={index} label={data.label} title={data.title} />
       <div className="space-y-6 md:space-y-8">
-        {data.items.map((project, i) => (
+        {visible.map((project, i) => (
           <ProjectCard key={project.title} project={project} idx={i} />
         ))}
       </div>
+
+      {hiddenCount > 0 && (
+        <div className="mt-12 flex justify-center">
+          <button
+            type="button"
+            onClick={toggle}
+            className="group rounded-full border border-line px-8 py-3.5 font-mono text-xs uppercase tracking-[0.25em] text-dim transition-colors duration-300 hover:border-line-bright hover:text-accent"
+          >
+            {expanded ? "Show less" : `Show more (${hiddenCount})`}
+            <span className="ml-3 inline-block transition-transform duration-300 group-hover:translate-y-0.5">
+              {expanded ? "↑" : "↓"}
+            </span>
+          </button>
+        </div>
+      )}
     </section>
   );
 }

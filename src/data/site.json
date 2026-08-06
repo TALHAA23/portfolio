@@ -194,7 +194,38 @@
   "projects": {
     "label": "SELECTED WORK",
     "title": "Things I've shipped",
+    "initialCount": 3,
     "items": [
+      {
+        "title": "Locals Choice",
+        "subtitle": "Curated local-discovery & membership platform",
+        "description": "A production platform for discovering hand-picked local businesses in the Netherlands, with member benefits and passes claimed via QR, interactive Leaflet maps, cart and checkout, a partner dashboard, referral credits and full English/Dutch localization. React + Supabase, CMS-driven copy end to end.",
+        "tags": ["React", "Supabase", "TanStack Query", "Leaflet", "QR"],
+        "links": [
+          { "label": "Live site", "url": "https://hiddenlocals.vercel.app/" }
+        ]
+      },
+      {
+        "title": "LNKZ",
+        "subtitle": "Creator-brand collaboration app",
+        "description": "A cross-platform mobile marketplace connecting brands with content creators. Brands launch campaigns, creators discover them through a swipe-based smart matching feed scored in Postgres, and payments run through Stripe. Built end to end, from the Expo + TypeScript app to the Supabase backend, with push notifications, role-based flows for creators, businesses and admins, and in-app analytics.",
+        "tags": ["React Native", "Expo", "TypeScript", "Supabase", "Stripe"]
+      },
+      {
+        "title": "Mountescrow",
+        "subtitle": "Fintech escrow platform",
+        "description": "An escrow payments platform for the Nigerian market that holds funds safely between buyers and sellers until a deal completes. I handled the full stack: the React Native (Expo) app with deals, proposals, disputes, wallet and push notifications, the web client, and the Node.js backend integrating bank APIs for real money transfers, built on Firebase Auth and Firestore.",
+        "tags": ["React Native", "Expo", "Firebase", "Node.js", "Fintech"]
+      },
+      {
+        "title": "Exodus Research",
+        "subtitle": "E-commerce storefront & admin",
+        "description": "A production e-commerce platform for a research compounds brand, with product catalog, comparison, favorites, cart, Stripe checkout, order tracking and a full admin panel backed by Supabase edge functions. Includes an embeddable iframe checkout for partner sites and automated product ingestion via web scraping. React + TypeScript with shadcn/ui, also shipped to iOS and Android with Capacitor.",
+        "tags": ["React", "TypeScript", "Supabase", "Stripe", "Capacitor"],
+        "links": [
+          { "label": "Live site", "url": "https://exodusresearch.co/" }
+        ]
+      },
       {
         "title": "Intelligent React Components",
         "subtitle": "Final year thesis → published NPM library",
