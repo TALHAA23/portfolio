@@ -128,19 +128,16 @@
 
   "about": {
     "label": "ABOUT",
-    "title": "Signal, not noise.",
+    "title": "I let AI write code I'd never let AI ship.",
     "image": "/images/avatar-about.png",
-    "body": "Software engineer specialized in full-stack JavaScript and applied AI integration. I take large language models — GPT-4, Gemini — and wire them into React and Next.js applications with RAG and vector databases, so the intelligence actually ships. Currently engineering at Paper to Pixel, with years of freelance work behind me and a thesis that taught React components to think.",
+    "body": "I move fast, AI drafts, scaffolds, and speeds up the parts that don't need a human staring at them. But nothing goes out the door until I've read it, tested it, and I'm willing to put my name on it. Full-stack developer, currently building at Paper to Pixel, speed when it's free, discipline where it counts.",
     "highlights": [
-      "full-stack JavaScript",
-      "applied AI",
-      "GPT-4",
-      "Gemini",
-      "RAG",
-      "vector databases",
+      "AI drafts, scaffolds",
+      "read it, tested it",
+      "put my name on it",
+      "Full-stack developer",
       "Paper to Pixel",
-      "React",
-      "Next.js"
+      "discipline where it counts"
     ],
     "stats": [
       { "value": 5, "suffix": "+", "label": "Years writing JavaScript" },
